@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528402A419CFE1F0009C5B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528402A319CFE1F0009C5B50 /* Foundation.framework */; };
+		528402A619CFE1F0009C5B50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528402A519CFE1F0009C5B50 /* CoreGraphics.framework */; };
+		528402A819CFE1F0009C5B50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528402A719CFE1F0009C5B50 /* UIKit.framework */; };
+		528402AE19CFE1F0009C5B50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 528402AC19CFE1F0009C5B50 /* InfoPlist.strings */; };
+		528402B019CFE1F0009C5B50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 528402AF19CFE1F0009C5B50 /* main.m */; };
+		528402B419CFE1F0009C5B50 /* CZLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 528402B319CFE1F0009C5B50 /* CZLAppDelegate.m */; };
+		528402B619CFE1F0009C5B50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528402B519CFE1F0009C5B50 /* Images.xcassets */; };
+		528402BD19CFE1F0009C5B50 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528402BC19CFE1F0009C5B50 /* XCTest.framework */; };
+		528402BE19CFE1F0009C5B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528402A319CFE1F0009C5B50 /* Foundation.framework */; };
+		528402BF19CFE1F0009C5B50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528402A719CFE1F0009C5B50 /* UIKit.framework */; };
+		528402C719CFE1F0009C5B50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 528402C519CFE1F0009C5B50 /* InfoPlist.strings */; };
+		528402C919CFE1F0009C5B50 /* DreamPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 528402C819CFE1F0009C5B50 /* DreamPlayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		528402C019CFE1F0009C5B50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5284029819CFE1F0009C5B50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5284029F19CFE1F0009C5B50;
+			remoteInfo = DreamPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		528402A019CFE1F0009C5B50 /* DreamPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		528402A319CFE1F0009C5B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		528402A519CFE1F0009C5B50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		528402A719CFE1F0009C5B50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		528402AB19CFE1F0009C5B50 /* DreamPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DreamPlayer-Info.plist"; sourceTree = "<group>"; };
+		528402AD19CFE1F0009C5B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		528402AF19CFE1F0009C5B50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		528402B119CFE1F0009C5B50 /* DreamPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DreamPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		528402B219CFE1F0009C5B50 /* CZLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZLAppDelegate.h; sourceTree = "<group>"; };
+		528402B319CFE1F0009C5B50 /* CZLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZLAppDelegate.m; sourceTree = "<group>"; };
+		528402B519CFE1F0009C5B50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		528402BB19CFE1F0009C5B50 /* DreamPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528402BC19CFE1F0009C5B50 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		528402C419CFE1F0009C5B50 /* DreamPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DreamPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		528402C619CFE1F0009C5B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		528402C819CFE1F0009C5B50 /* DreamPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamPlayerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5284029D19CFE1F0009C5B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528402A619CFE1F0009C5B50 /* CoreGraphics.framework in Frameworks */,
+				528402A819CFE1F0009C5B50 /* UIKit.framework in Frameworks */,
+				528402A419CFE1F0009C5B50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528402B819CFE1F0009C5B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528402BD19CFE1F0009C5B50 /* XCTest.framework in Frameworks */,
+				528402BF19CFE1F0009C5B50 /* UIKit.framework in Frameworks */,
+				528402BE19CFE1F0009C5B50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5284029719CFE1F0009C5B50 = {
+			isa = PBXGroup;
+			children = (
+				528402A919CFE1F0009C5B50 /* DreamPlayer */,
+				528402C219CFE1F0009C5B50 /* DreamPlayerTests */,
+				528402A219CFE1F0009C5B50 /* Frameworks */,
+				528402A119CFE1F0009C5B50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528402A119CFE1F0009C5B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528402A019CFE1F0009C5B50 /* DreamPlayer.app */,
+				528402BB19CFE1F0009C5B50 /* DreamPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528402A219CFE1F0009C5B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				528402A319CFE1F0009C5B50 /* Foundation.framework */,
+				528402A519CFE1F0009C5B50 /* CoreGraphics.framework */,
+				528402A719CFE1F0009C5B50 /* UIKit.framework */,
+				528402BC19CFE1F0009C5B50 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		528402A919CFE1F0009C5B50 /* DreamPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				528402B219CFE1F0009C5B50 /* CZLAppDelegate.h */,
+				528402B319CFE1F0009C5B50 /* CZLAppDelegate.m */,
+				528402B519CFE1F0009C5B50 /* Images.xcassets */,
+				528402AA19CFE1F0009C5B50 /* Supporting Files */,
+			);
+			path = DreamPlayer;
+			sourceTree = "<group>";
+		};
+		528402AA19CFE1F0009C5B50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				528402AB19CFE1F0009C5B50 /* DreamPlayer-Info.plist */,
+				528402AC19CFE1F0009C5B50 /* InfoPlist.strings */,
+				528402AF19CFE1F0009C5B50 /* main.m */,
+				528402B119CFE1F0009C5B50 /* DreamPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		528402C219CFE1F0009C5B50 /* DreamPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				528402C819CFE1F0009C5B50 /* DreamPlayerTests.m */,
+				528402C319CFE1F0009C5B50 /* Supporting Files */,
+			);
+			path = DreamPlayerTests;
+			sourceTree = "<group>";
+		};
+		528402C319CFE1F0009C5B50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				528402C419CFE1F0009C5B50 /* DreamPlayerTests-Info.plist */,
+				528402C519CFE1F0009C5B50 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5284029F19CFE1F0009C5B50 /* DreamPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528402CC19CFE1F0009C5B50 /* Build configuration list for PBXNativeTarget "DreamPlayer" */;
+			buildPhases = (
+				5284029C19CFE1F0009C5B50 /* Sources */,
+				5284029D19CFE1F0009C5B50 /* Frameworks */,
+				5284029E19CFE1F0009C5B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamPlayer;
+			productName = DreamPlayer;
+			productReference = 528402A019CFE1F0009C5B50 /* DreamPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		528402BA19CFE1F0009C5B50 /* DreamPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528402CF19CFE1F0009C5B50 /* Build configuration list for PBXNativeTarget "DreamPlayerTests" */;
+			buildPhases = (
+				528402B719CFE1F0009C5B50 /* Sources */,
+				528402B819CFE1F0009C5B50 /* Frameworks */,
+				528402B919CFE1F0009C5B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528402C119CFE1F0009C5B50 /* PBXTargetDependency */,
+			);
+			name = DreamPlayerTests;
+			productName = DreamPlayerTests;
+			productReference = 528402BB19CFE1F0009C5B50 /* DreamPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5284029819CFE1F0009C5B50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CZL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = czl;
+				TargetAttributes = {
+					528402BA19CFE1F0009C5B50 = {
+						TestTargetID = 5284029F19CFE1F0009C5B50;
+					};
+				};
+			};
+			buildConfigurationList = 5284029B19CFE1F0009C5B50 /* Build configuration list for PBXProject "DreamPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5284029719CFE1F0009C5B50;
+			productRefGroup = 528402A119CFE1F0009C5B50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5284029F19CFE1F0009C5B50 /* DreamPlayer */,
+				528402BA19CFE1F0009C5B50 /* DreamPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5284029E19CFE1F0009C5B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528402AE19CFE1F0009C5B50 /* InfoPlist.strings in Resources */,
+				528402B619CFE1F0009C5B50 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528402B919CFE1F0009C5B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528402C719CFE1F0009C5B50 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5284029C19CFE1F0009C5B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528402B419CFE1F0009C5B50 /* CZLAppDelegate.m in Sources */,
+				528402B019CFE1F0009C5B50 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528402B719CFE1F0009C5B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528402C919CFE1F0009C5B50 /* DreamPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		528402C119CFE1F0009C5B50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5284029F19CFE1F0009C5B50 /* DreamPlayer */;
+			targetProxy = 528402C019CFE1F0009C5B50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		528402AC19CFE1F0009C5B50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				528402AD19CFE1F0009C5B50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		528402C519CFE1F0009C5B50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				528402C619CFE1F0009C5B50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		528402CA19CFE1F0009C5B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		528402CB19CFE1F0009C5B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		528402CD19CFE1F0009C5B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DreamPlayer/DreamPlayer-Prefix.pch";
+				INFOPLIST_FILE = "DreamPlayer/DreamPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		528402CE19CFE1F0009C5B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DreamPlayer/DreamPlayer-Prefix.pch";
+				INFOPLIST_FILE = "DreamPlayer/DreamPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		528402D019CFE1F0009C5B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DreamPlayer.app/DreamPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DreamPlayer/DreamPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DreamPlayerTests/DreamPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		528402D119CFE1F0009C5B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DreamPlayer.app/DreamPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DreamPlayer/DreamPlayer-Prefix.pch";
+				INFOPLIST_FILE = "DreamPlayerTests/DreamPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5284029B19CFE1F0009C5B50 /* Build configuration list for PBXProject "DreamPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528402CA19CFE1F0009C5B50 /* Debug */,
+				528402CB19CFE1F0009C5B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528402CC19CFE1F0009C5B50 /* Build configuration list for PBXNativeTarget "DreamPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528402CD19CFE1F0009C5B50 /* Debug */,
+				528402CE19CFE1F0009C5B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		528402CF19CFE1F0009C5B50 /* Build configuration list for PBXNativeTarget "DreamPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528402D019CFE1F0009C5B50 /* Debug */,
+				528402D119CFE1F0009C5B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5284029819CFE1F0009C5B50 /* Project object */;
+}
