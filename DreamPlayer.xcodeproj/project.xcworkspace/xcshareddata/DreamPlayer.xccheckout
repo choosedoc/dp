@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>42E1FB64-AA3D-449B-83AB-666C024A2C63</string>
+	<string>D2350FD3-4F7C-4087-A94B-67E489D3D7E2</string>
 	<key>IDESourceControlProjectName</key>
 	<string>DreamPlayer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F09C9CA9-A94D-4073-8D82-A8C20B4A9184</key>
-		<string>https://github.com/choosedoc/DreamPlayer.git</string>
+		<key>328E9A7C-E11C-490C-8B18-6A971A00925D</key>
+		<string>https://github.com/choosedoc/dp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>DreamPlayer.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F09C9CA9-A94D-4073-8D82-A8C20B4A9184</key>
+		<key>328E9A7C-E11C-490C-8B18-6A971A00925D</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/choosedoc/DreamPlayer.git</string>
+	<string>https://github.com/choosedoc/dp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F09C9CA9-A94D-4073-8D82-A8C20B4A9184</string>
+	<string>328E9A7C-E11C-490C-8B18-6A971A00925D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F09C9CA9-A94D-4073-8D82-A8C20B4A9184</string>
+			<string>328E9A7C-E11C-490C-8B18-6A971A00925D</string>
 			<key>IDESourceControlWCCName</key>
-			<string>DreamPlayer</string>
+			<string>dp-dev</string>
 		</dict>
 	</array>
 </dict>
