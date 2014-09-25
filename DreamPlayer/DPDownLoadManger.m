@@ -9,5 +9,8 @@
 #import "DPDownLoadManger.h"
 
 @implementation DPDownLoadManger
-
++ (NSString *)getWebsiteSource:(NSURL *)url block:(NetHandler)block
+{
+    return nil;
+}
 @end

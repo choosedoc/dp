@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+typedef void ((^NetHandler)(NSString *sourceCode));
+/**
+ *  @brief 网络事件处理类
+ */
 @interface DPDownLoadManger : NSObject
-
+/**
+ *  @brief 获取网站源码
+ */
++ (NSString *)getWebsiteSource:(NSURL *)url block:(NetHandler)block;
 @end
