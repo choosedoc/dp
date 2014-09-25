@@ -14,7 +14,8 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #import "Const.h"
-    #import "DPTabBarViewController_iPhone.h"
-
+#import "DPTabBarViewController_iPhone.h"
+#import "ASIHTTPRequest.h"
+#import "FMDatabase.h"
 #import "DPMainPageViewController.h"
 #endif

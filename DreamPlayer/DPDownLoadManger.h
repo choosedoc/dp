@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-typedef void ((^NetHandler)(NSString *sourceCode));
+typedef void ((^NetHandler)(BOOL isSucess,NSString *sourceCode));
 /**
  *  @brief 网络事件处理类
  */
@@ -15,5 +15,5 @@ typedef void ((^NetHandler)(NSString *sourceCode));
 /**
  *  @brief 获取网站源码
  */
-+ (NSString *)getWebsiteSource:(NSURL *)url block:(NetHandler)block;
++ (void)getWebsiteSource:(NSURL *)url block:(NetHandler)block;
 @end

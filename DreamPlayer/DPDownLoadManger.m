@@ -9,8 +9,19 @@
 #import "DPDownLoadManger.h"
 
 @implementation DPDownLoadManger
-+ (NSString *)getWebsiteSource:(NSURL *)url block:(NetHandler)block
++ (void)getWebsiteSource:(NSURL *)url block:(NetHandler)block
 {
-    return nil;
+    ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
+    __weak ASIHTTPRequest *weakRequest = request;
+    [request setCompletionBlock:^{
+        NSData *strData = [NSJSONSerialization JSONObjectWithData:weakRequest.responseData options:NSJSONReadingMutableContainers error:nil];
+        block(YES,[[NSString alloc] initWithData:strData encoding:NSUTF8StringEncoding]);
+    }];
+    [request setFailedBlock:^{
+        if (block) {
+            block(NO,nil);
+        }
+    }];
+    [request startAsynchronous];
 }
 @end
