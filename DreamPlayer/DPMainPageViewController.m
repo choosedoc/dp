@@ -9,7 +9,7 @@
 #import "DPMainPageViewController.h"
 #define SHOWPICNUM 10
 #define PICANITIME 0.3f
-@interface DPMainPageViewController () <UITableViewDataSource,UITableViewDelegate,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
+@interface DPMainPageViewController () 
 /// 首页tableview
 @property (nonatomic,strong) UITableView *myTable;
 /// 影片图片展示
@@ -34,6 +34,7 @@
     self.myTable.showsHorizontalScrollIndicator = NO;
     self.myTable.dataSource = self;
     self.myTable.delegate = self;
+    self.myTable.tableHeaderView = [self createTableHeader];
     [self.view addSubview:self.myTable];
     
     
@@ -58,6 +59,7 @@
     self.scrollView.bounces = NO;
     self.scrollView.pagingEnabled = YES;
     self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width * (SHOWPICNUM + 2) , headView.frame.size.height);
+    [self showPicByNet];
     [headView addSubview:self.scrollView];
     // page control
     UIPageControl *pageCtl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, 0, headView.frame.size.width, 50 * BH)];
@@ -69,12 +71,38 @@
     return headView;
 }
 
+#pragma mark --pic show in scrollview
+- (void)showPicByNet
+{
+    NSString *regStr = @"^<div id=\"slider\" class=\"nivoSlider\">.*</div>$";
+    [DPDownLoadManger getWebsiteSource:[NSURL URLWithString:@"http://www.tonghuacun.com"] block:^(BOOL isSucess, NSString *sourceCode) {
+        if (isSucess) {
+            NSRegularExpression *regRule = [NSRegularExpression regularExpressionWithPattern:regStr options:0 error:nil];
+            NSTextCheckingResult *firstMatches = [regRule firstMatchInString:sourceCode options:0 range:NSMakeRange(0, sourceCode.length)];
+            
+            
+            NSLog(@"==%@",[sourceCode substringWithRange:[firstMatches rangeAtIndex:0]]);
+        }
+    }];
+}
+
 #pragma mark --page control value changed
 - (void)onPageControlChange:(UIPageControl *)pageControl
 {
     [UIView animateWithDuration:PICANITIME animations:^{
         self.scrollView.contentOffset = CGPointMake(self.scrollView.frame.size.width * pageControl.currentPage, 0.f);
     }];
+}
+
+#pragma mark --table viewdelegate
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 0;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return nil;
 }
 
 @end

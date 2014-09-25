@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DPMainPageViewController : UIViewController
+@interface DPMainPageViewController : UIViewController <UITableViewDataSource,UITableViewDelegate,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 
 @end
